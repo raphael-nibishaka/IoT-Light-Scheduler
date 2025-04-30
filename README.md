@@ -70,7 +70,7 @@ light-scheduler/
 ### 🔹 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/light-scheduler.git
+git clone https://github.com/raphael-nibishaka/IoT-Light-Scheduler.git
 cd light-scheduler
 ```
 
@@ -174,7 +174,7 @@ light-scheduler/demo.gif
 
 - 👤 **Nibishaka Raphael**
 - 📧 raphyboy159@gmail.com
-- 🔗 [GitHub](https://github.com/raphyboy159)
+- 🔗 [GitHub](https://github.com/raphael-nibishaka)
 
 ---
 
