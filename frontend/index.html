@@ -1,0 +1,41 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💡 Light Scheduler Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💡 IoT Light Scheduler</h1>
+
+    <form id="scheduleForm">
+      <div class="form-group">
+        <label for="onTime">Turn ON Time:</label>
+        <input type="time" id="onTime" name="onTime" required />
+      </div>
+
+      <div class="form-group">
+        <label for="offTime">Turn OFF Time:</label>
+        <input type="time" id="offTime" name="offTime" required />
+      </div>
+
+      <button type="submit">Schedule Light</button>
+    </form>
+
+    <div id="status">
+      <h2>Status:</h2>
+      <p id="statusText">Waiting for schedule...</p>
+    </div>
+
+    <div class="extras">
+      <button id="simulateOn">💡 Simulate Light ON</button>
+      <button id="simulateOff">🕯️ Simulate Light OFF</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
